@@ -1,0 +1,65 @@
+{"Intents": [
+
+             {"tag": "greeting",
+              "patterns": ["hello","hi","hello chatbot","hi chatbot"],
+              "responses": ["hello , I am here to answer all your question abou machine learning"]
+             },
+    {"tag":"name",
+     "patterns":["what's your name ?", "can you tell me your name ?" ],
+     "responses":["I am Chatty" , "My name is Chatty"]
+    },
+    {"tag":"question",
+     "patterns":["I have a question","can you answer my question","can I ask you"],
+     "responses":["yes Of course, my mission is to answer all your questions about Machine learning"]
+    },
+    {"tag":"Machine learning",
+     "patterns":["What is machine learning","can you tell me about machine learning"],
+     "responses":["the use and development of computer systems that are able to learn and adapt without following explicit instructions, by using algorithms and statistical models to analyse and draw inferences from patterns in data."]
+    },
+    {"tag":"MLtypes",
+     "patterns":["What are types of Machine learning ?"],
+     "responses":["These are three types of machine learning: supervised learning, unsupervised learning, and reinforcement learning."]
+    },
+    {"tag":"superviseddef",
+     "patterns":["What is supervised learning ?"],
+     "responses":["Supervised learning is an approach to creating artificial intelligence (AI), where a computer algorithm is trained on input data that has been labeled for a particular output. The model is trained until it can detect the underlying patterns and relationships between the input data and the output labels, enabling it to yield accurate labeling results when presented with never-before-seen data."]
+    },
+    {"tag":"supervisedalgo",
+     "patterns":["What are algorithms of supervised learning ?"],
+     "responses":["these are supervised learning algorithms that I know : Neural networks, Naive Bayes, Linear regression, Logistic regression, Support vector machine (SVM), K-nearest neighbor, Random forest"]
+    },
+    {"tag":"unsuperviseddef",
+     "patterns":["What is unsupervised learning ?"],
+     "responses":["Unsupervised learning, also known as unsupervised machine learning, uses machine learning algorithms to analyze and cluster unlabeled datasets. These algorithms discover hidden patterns or data groupings without the need for human intervention. Its ability to discover similarities and differences in information make it the ideal solution for exploratory data analysis, cross-selling strategies, customer segmentation, and image recognition."]
+    },
+    {"tag":"supervisedalgo",
+     "patterns":["What are algorithms of unsupervised learning ?"],
+     "responses":["these are supervised learning algorithms that I know : Neural networks, K-means clustering, Hierarchal clustering, Anomaly detection, Principle Component Analysis, K-nearest neighbor, Independent Component Analysis,Apriori algorithm, Singular value decomposition"]
+    },
+    {"tag":"reinforcementdef",
+     "patterns":["What is reinforcement learning ?"],
+     "responses":["Reinforcement Learning (RL) is the science of decision making. It is about learning the optimal behavior in an environment to obtain maximum reward. This optimal behavior is learned through interactions with the environment and observations of how it responds, similar to children exploring the world around them and learning the actions that help them achieve a goal.In the absence of a supervisor, the learner must independently discover the sequence of actions that maximize the reward. This discovery process is akin to a trial-and-error search. The quality of actions is measured by not just the immediate reward they return, but also the delayed reward they might fetch. As it can learn the actions that result in eventual success in an unseen environment without the help of a supervisor, reinforcement learning is a very powerful algorithm."]
+    },
+    {"tag":"reinforcementalgo",
+     "patterns":["What are algorithms of reinforcement learning ?"],
+     "responses":["these are supervised learning algorithms that I know : Monte Carlo, Q-learning, SARSA, Q-learning - Lambda, SARSA - Lambda,DQN, DDPG,A3C, NAF,TRPO, PPO, TD3, SAC"]
+    },
+    {"tag": "goodbye",
+              "patterns": ["OK,goodbye","Thank you"],
+              "responses": ["you are welcome", "goodbye,don't hesitate to ask me"]
+             },
+    {"tag": "learningsources",
+              "patterns": ["Can you tell me where to learn machine learning programming","where to learn machine learning"],
+                  "responses": ["You can learn on coursera and udemy"]
+             },
+    {"tag": "age",
+              "patterns": ["How old are you?","what's your age"],
+                  "responses": ["believe me I don't know, can you help me to know my age?"]
+             },
+    {"tag": "thanX",
+              "patterns": ["I will try","yes of course"],
+                  "responses": ["Thank you dude !"]
+             }
+    ]}
+
+    
